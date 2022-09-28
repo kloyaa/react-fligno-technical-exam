@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> Node Express CRUD API </h1>
+<p>I created this template to make Node JS and Express backend programming simpler. Everyone is welcome to raise an issue because this project is not flawless.</p>
+<h2>Project Dependencies</h2>
+<ul>
+    <li>Mongoose</li>
+    <li>Express</li>
+    <li>Bcrypt</li>
+    <li>Cloudinary</li>
+    <li>Multer</li>
+    <li>Nodemailer</li>
+    <li>Nodemailer Sendgrid Transport</li>
+    <li>JSON Web Token</li>
+    <li>Uuid</li>
+    <li>Dotenv</li>
+</ul>
 
-## Available Scripts
+<h2>Project Content</h2>
 
-In the project directory, you can run:
+<ul>
+    <li><h3>Create, Read, Update and Delete</h3></li>
+        <ul>
+            <li>In a REST environment, CRUD often corresponds to the HTTP methods POST, GET, PUT, and DELETE, respectively. These are the fundamental elements of a persistent storage system.</li>
+        </ul>
+    <li><h3>JSON Web Token Authentication HTTP only</h3></li>
+        <ul>
+            <li>It provides a gate that prevents the specialized cookie from being accessed by anything other than the server.
+            </li>
+        </ul>
+    <li><h3>Send email using Nodemailer</h3></li>
+        <ul>
+            <li>Nodemailer is a module for Node.js applications to allow easy as cake email sending. The project got started back in 2010 when there was no sane option to send email messages, today it is the solution most Node.js users turn to by default.</li>
+        </ul>
+    <li><h3>Upload file/images to cloudinary</h3></li>
+        <ul>
+            <li>The Cloudinary Node SDK allows you to quickly and easily integrate your application with Cloudinary. Effortlessly optimize, transform, upload and manage your cloud's assets.</li>
+        </ul>
+</ul>
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2>Environment Variables</h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+| Variables | Description |
+| :--- | :--- |
+| `CONNECTION_STRING` | Connection string for database |
+| `CLOUDINARY_NAME` | Cloudinary name |
+| `CLOUDINARY_KEY` | Cloudinary key |
+| `CLOUDINARY_SECRET` | Cloudinary secret key |
+| `CLOUDINARY_FOLDER` | Cloudinary folder for the upload destination. This is optional and you can remove the "folder" key safely in upload option |
+| `ACCESS_TOKEN_SECRET` | Cloudinary folder for the upload destination. This is optional and you can remove the "folder" key safely in upload option |
 
-### `npm test`
+<h2>How to install/run the project? </h2>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+1. Clone/Download repository
+2. Open the downloaded repository folder using your preferred IDE e.g. [Visual Studio Code](https://code.visualstudio.com/Download)
+3. Download [JavaScript runtime built on Chrome's V8 JavaScript engine](https://nodejs.org/en/) and install it
+4. Type command "npm install" in terminal/cmd  to install the dependencies
+5. Type command "npm run dev" to run the project
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<h2>Authors</h2>
+<ul>
+    <li>Kolya Madridano </li>
+</ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+     
